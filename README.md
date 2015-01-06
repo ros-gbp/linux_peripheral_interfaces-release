@@ -1,3 +1,27 @@
+## linux_peripheral_interfaces (indigo) - 0.1.2-0
+
+The packages in the `linux_peripheral_interfaces` repository were released into the `indigo` distro by running `/usr/bin/bloom-release linux_peripheral_interfaces -t indigo -r indigo` on `Tue, 06 Jan 2015 05:04:49 -0000`
+
+These packages were released:
+- `laptop_battery_monitor`
+- `libsensors_monitor`
+- `linux_peripheral_interfaces`
+
+Version of package(s) in repository `linux_peripheral_interfaces`:
+- upstream repository: https://github.com/ros-drivers/linux_peripheral_interfaces.git
+- release repository: https://github.com/ros-gbp/linux_peripheral_interfaces-release.git
+- rosdistro version: `0.1.1-0`
+- old version: `0.1.1-0`
+- new version: `0.1.2-0`
+
+Versions of tools used:
+- bloom version: `0.5.16`
+- catkin_pkg version: `0.2.6`
+- rosdep version: `0.11.0`
+- rosdistro version: `0.4.0`
+- vcstools version: `0.1.36`
+
+
 ## linux_peripheral_interfaces (indigo) - 0.1.1-0
 
 The packages in the `linux_peripheral_interfaces` repository were released into the `indigo` distro by running `/usr/bin/bloom-release linux_peripheral_interfaces -t indigo -r indigo` on `Tue, 18 Nov 2014 07:43:32 -0000`
