@@ -1,0 +1,12 @@
+Source: ros-indigo-libsensors-monitor
+Section: misc
+Priority: extra
+Maintainer: Mitchell Wills <mwills@wpi.edu>
+Build-Depends: debhelper (>= 9.0.0), libsensors4-dev, ros-indigo-catkin, ros-indigo-diagnostic-updater, ros-indigo-roscpp
+Homepage: http://ros.org/wiki/libsensors_monitor
+Standards-Version: 3.9.2
+
+Package: ros-indigo-libsensors-monitor
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libsensors4-dev, ros-indigo-diagnostic-updater, ros-indigo-roscpp
+Description: A ROS node for using libsensors to provide diagnostics information about the sensors on a computer system.
