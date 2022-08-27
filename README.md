@@ -1,3 +1,29 @@
+## linux_peripheral_interfaces (noetic) - 0.2.2-1
+
+The packages in the `linux_peripheral_interfaces` repository were released into the `noetic` distro by running `/usr/bin/bloom-release linux_peripheral_interfaces --rosdistro noetic --track noetic -y` on `Sat, 27 Aug 2022 01:10:40 -0000`
+
+These packages were released:
+- `laptop_battery_monitor`
+- `libsensors_monitor`
+- `linux_peripheral_interfaces`
+
+Version of package(s) in repository `linux_peripheral_interfaces`:
+
+- upstream repository: https://github.com/ros-drivers/linux_peripheral_interfaces.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.2.2-1`
+
+Versions of tools used:
+
+- bloom version: `0.11.2`
+- catkin_pkg version: `0.5.2`
+- rosdep version: `0.22.1`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## linux_peripheral_interfaces (melodic) - 0.2.1-1
 
 The packages in the `linux_peripheral_interfaces` repository were released into the `melodic` distro by running `/usr/bin/bloom-release linux_peripheral_interfaces -r melodic -t melodic` on `Sat, 16 Nov 2019 13:44:09 -0000`
