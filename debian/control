@@ -1,0 +1,12 @@
+Source: ros-noetic-libsensors-monitor
+Section: misc
+Priority: optional
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Build-Depends: debhelper (>= 9.0.0), libsensors4-dev, ros-noetic-catkin, ros-noetic-diagnostic-updater, ros-noetic-roscpp
+Homepage: http://ros.org/wiki/libsensors_monitor
+Standards-Version: 3.9.2
+
+Package: ros-noetic-libsensors-monitor
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libsensors4-dev, ros-noetic-diagnostic-updater, ros-noetic-roscpp
+Description: A ROS node for using libsensors to provide diagnostics information about the sensors on a computer system.
