@@ -1,0 +1,12 @@
+Source: ros-noetic-linux-peripheral-interfaces
+Section: misc
+Priority: optional
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin
+Homepage: http://wiki.ros.org/linux_peripheral_interfaces
+Standards-Version: 3.9.2
+
+Package: ros-noetic-linux-peripheral-interfaces
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-laptop-battery-monitor, ros-noetic-libsensors-monitor
+Description: Simple scripts which help utilise, monitor, interact with computer hardware abstracted by a linux OS.
